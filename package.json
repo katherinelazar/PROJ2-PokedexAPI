@@ -1,0 +1,26 @@
+{
+  "name": "PROJ2-PokemonDB",
+  "version": "1.0.0",
+  "description": "Simple Pokèmon REST API",
+  "main": "server/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "dev": "nodemon -w server --exec 'babel-node server'",
+    "build": "babel server -s -D -d dist",
+    "prestart": "npm run -s build",
+    "start": "node dist"
+  },
+  "keywords": [],
+  "author": "Sam Wemyss",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-latest": "^6.16.0",
+    "nodemon": "^1.11.0"
+  }
+}
