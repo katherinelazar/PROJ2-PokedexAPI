@@ -5,12 +5,14 @@
 
 ## Getting started
 
-1. Install postgres on your machine.
+1. Install postgres on your machine:
     - Mac OS - [brew](https://launchschool.com/blog/how-to-install-postgresql-on-a-mac) or [Postgres.app](http://postgresapp.com)
     - [Linux](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)
-2. Clone this repository
-3. Install dependencies with `npm i`
-4. Start the server with `npm start`, the api is now running at `http://localhost:3000`
+    - [Windows](https://www.postgresql.org/download/windows)
+2. Clone this repository.
+3. Install dependencies with `npm i`.
+4. Start the dev-server with `npm run dev`, the api is now running at `http://localhost:3000`.
+5. To start the production server (no live reloading/transpiling) use `npm start`.
 
 
 ## Task
@@ -29,8 +31,15 @@
 
 - [Sequelize](http://docs.sequelizejs.com/en/v3) with Postgres
 - [Express](https://expressjs.com)
-- [Babel](https://babeljs.io)
+- [Babel](https://babeljs.io) - Using latest (i.e. ES2015, ES2016 and ES2017)
 - [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
+
+
+## Other Resources
+
+- [ES6 Overview](https://webapplog.com/es6)
+- [REST API Design](https://scotch.io/bar-talk/designing-a-restful-web-api)
+- [Building REST API with express.js](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)
 
 
 ## Author
