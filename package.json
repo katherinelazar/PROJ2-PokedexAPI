@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "nodemon -w server --exec 'NODE_ENV=dev babel-node server'",
-    "build": "babel server -s -D -d dist",
+    "build": "babel server -D -d dist",
     "prestart": "npm run -s build",
     "start": "NODE_ENV=prod node dist"
   },
